@@ -31,7 +31,6 @@ mkdir task
 path=$(pwd)
 ls -l -h -R -I "task" -I "task.sh" | awk -F" " 'NF>3{i=9; while (i<NF) {printf("%s ", $i); i++;} printf("%s\t", $i)}NF>3{printf("%s\t%s %s %s\t%s\n", $5, $6, $7, $8, $1)}' > ./task/task0
 ls -R -l -I "task" -I "task.sh" | awk -F" " 'NF>3{print $9}' | sed 's/.*\.//' > ./task/task1
-> ./task/task2
 Length $(ls ".")
 cd
 cd $path
