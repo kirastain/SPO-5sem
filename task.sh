@@ -23,6 +23,7 @@ do
 	if [[ -d "${file}" ]]; then
 		cd "${file}"
 		Length $(ls ".")
+		cd ..
 	fi
 done
 }
