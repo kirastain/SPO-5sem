@@ -1,9 +1,9 @@
 bla	4,0K	сен 20 11:23	drwxr-xr-x	bla	None
-bla bla.txt	0	сен 20 11:41	-rw-r--r--	txt	None
-check.sh	281	сен 20 17:57	-rw-r--r--	sh	None
-code.c	68	сен 12 13:58	-rwxr--r--	c	None
-file	30	сен 12 14:02	-rwxr--r--	file	None
+сен 20 11:41 bla bla.txt		  0	-rw-r--r--	txt	None
+17:57 check.sh		281 сен 20	-rw-r--r--	sh	None
+12 13:58 code.c		 68 сен	-rwxr--r--	c	None
+12 14:02 file		 30 сен	-rwxr--r--	file	None
 IMG_7229.MOV	2,5M	сен 16 17:23	-rw-rw-r--	MOV	2.600000
-resu	60	сен 12 14:53	-rw-r--r--	resu	None
-result	275	сен 12 14:08	-rwxr--r--	result	None
+12 14:53 resu		 60 сен	-rw-r--r--	resu	None
+14:08 result		275 сен 12	-rwxr--r--	result	None
 a.txt	39	сен 20 11:23	-rw-r--r--	txt	None
