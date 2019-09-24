@@ -9,7 +9,7 @@ do
                 then
                         if [[ "$file" = *.MOV || "$file" = *.mp3 || "$file" = *.avi || "$file" = *.mp4 ]]
                         then
-                                a=$(ffprobe -i $file -show_entries format=duration -v quiet -of csv="p=0");
+                                a=$(ffprobe -i "$file" -show_entries format=duration -v quiet -of csv="p=0");
                                 echo $a >> $path/task/task2
                         else
                                 a=`echo None`;
