@@ -1,23 +1,21 @@
 include "map.inc"
 include "bot.inc"
 
-size [20 20]
-
 window
 ( 
-      size [ 600.000 600.000 ] 
+      size [ 900.000 900.000 ] 
       scale 35
 )
 
 floorplan
 (
    bitmap "map.png"
-   size [60 60 10]    
+   size [30 30 10]    
 )
 
 bot
 (
       name "dumm-e"
-      pose [-5 -6 0 45]
+      pose [-14 0 0 90]
       color "blue"
 )
