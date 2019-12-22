@@ -1,9 +1,10 @@
 include "map.inc"
+include "bot_cute.inc"
 include "bot.inc"
 
 window
 ( 
-      size [ 900.000 900.000 ] 
+      size [ 1100.000 1200.000 ] 
       scale 35
 )
 
@@ -19,3 +20,4 @@ bot
       pose [-14 0 0 90]
       color "blue"
 )
+

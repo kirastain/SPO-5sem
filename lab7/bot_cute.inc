@@ -1,4 +1,4 @@
-define bot position
+define bot_cute position
 (
       size [1 1 1]
 
@@ -6,8 +6,11 @@ define bot position
 
       block
       (
-            points 6
-            point[5] [0 0]
+            points 9
+	    point[8] [0 0]
+            point[7] [0 0.25]
+	    point[6] [0.25 0.5]
+	    point[5] [0 0.75]
             point[4] [0 1]
             point[3] [0.75 1]
             point[2] [1 0.75]
